@@ -14,6 +14,8 @@
 
 syntax = "proto3";
 
+import "google/api/client.proto";
+
 package google.showcase.v1beta1;
 
 option go_package = "github.com/googleapis/gapic-showcase/server/genproto";
